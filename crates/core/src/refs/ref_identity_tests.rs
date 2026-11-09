@@ -377,3 +377,6 @@ fn owned_native_tokens_are_identity_evidence() {
     assert!(super::is_element_token("axtok1:00"));
     assert!(!super::is_element_token("path:0/1"));
 }
+
+#[path = "ref_identity_token_tests.rs"]
+mod token_tests;
